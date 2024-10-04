@@ -36,8 +36,8 @@ public class MainActivity extends AppCompatActivity {
                 TextView numberView = new TextView(this);
                 numberView.setText(String.valueOf(i));
                 numberView.setLayoutParams(new GridLayout.LayoutParams());
-                numberView.setPadding(16, 16, 16, 16);
-                numberView.setTextSize(24);
+                numberView.setPadding(15, 15, 15, 15);
+                numberView.setTextSize(16);
                 numberView.setGravity(Gravity.CENTER);
                 gv_numbers.addView(numberView);
             }
